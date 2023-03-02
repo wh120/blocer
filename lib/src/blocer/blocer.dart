@@ -111,9 +111,7 @@ class _BlocerState<B extends StateStreamable<BlocerState> , ResponseModel> exten
            if(widget.onSuccess != null){
              widget.onSuccess!(state.data);
            }
-
          }
-
        },
    );
  }
