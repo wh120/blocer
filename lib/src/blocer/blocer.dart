@@ -13,7 +13,7 @@ class Blocer<B extends StateStreamable<BlocerState> , ResponseModel> extends Sta
    Widget? child ;
     ModelReceived<ResponseModel>? onSuccess;
 
-   Blocer.get({Key? key, this.bloc, required this.builder,required  this.getData , this.onSuccess}) : super(key: key);
+   Blocer.get<B>({Key? key, this.bloc, required this.builder,required  this.getData , this.onSuccess}) : super(key: key);
    Blocer.post({Key? key, this.bloc , required this.child , this.onSuccess  }) : super(key: key);
 
   @override

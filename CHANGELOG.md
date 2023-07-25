@@ -1,3 +1,8 @@
-## 0.0.1
+## 0.0.3
+* FIX: clean code.
 
-* TODO: Describe initial release.
+## 0.0.2
+* FIX: clean code.
+
+## 0.0.1
+* init

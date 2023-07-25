@@ -1,6 +1,6 @@
 name: blocer
 description: A new Flutter package to simplify bloc state managment.
-version: 0.0.1
+version: 0.0.3
 homepage: https://github.com/wh120/blocer
 repository: https://github.com/wh120/blocer
 
